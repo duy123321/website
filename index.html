@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <meta name="description" content="An attempt at a personal website">
+    <meta name="Duy Nguyen" content="stuff">
+    <title>Duy Nguyen</title>
+    <link rel="stylesheet" type="text/css"href="css/styleHello.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+    <div class = "container">
+        <nav>
+            <ul>
+                <li><a href="hello.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section id="Hamburger">
+      <div class="topnav">
+          <p>Home</p>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="resume.html">Resume</a>
+            <a href="#about">About</a>
+            <a href="#expereiences">Experiences</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">Work</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <section id=burger>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          </section>
+      </div>
+      </section>
+</header>
+<section id ="showcase">
+    <div class="container">
+        <p>Hi, my name is</p>
+        <h1>Duy Nguyen</h1>
+    </div>
+</section>
+<section id="about">
+    <div class="container">
+        <h1>Who am I?</h1>
+    <div class="content">
+        <img src="images/cool.jpg" alt>
+        <p>
+            Hi, my name is Duy Nguyen. Currently I'm a student at Virginia Tech majoring in Computer Science. Luckily for me, I am a bit more intresting than a school and a major. Here are some things below that makes me, me.
+        </p>
+    </div>
+    </div>
+</section>
+<div class="grid-pictures">
+    <div class="pics">
+        <img src="images/family.JPG" alt>
+      </div>
+      <div class="pics">
+        <img src="images/mountains.JPG" alt>
+      </div>
+      <div class="pics">
+        <img src="images/MeNTyler.JPG" alt>
+      </div>
+      <div class="pics">
+        <img src="images/overlook.jpeg" alt>
+      </div>
+      <div class="pics">
+        <img src="images/sasefam.jpg" alt>
+      </div>
+      <div class="pics">
+        <img src="images/lake.jpg" alt>
+      </div>
+      <div class="pics">
+        <img src="images/trio.JPG" alt>
+      </div>
+      <div class="pics">
+        <img src="images/movie.jpg" alt>
+      </div>
+      <div class="pics">
+        <img src="images/soccer.JPG" alt>
+      </div>
+</div>
+<footer>
+  <div class="container">
+    <h1>Let's Connect</h1>
+    <div class="social-media">
+      <a href="https://www.instagram.com/duynquy3n/?hl=en" target="_blank"><img src="images/ig.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/duy-n-22a89a193/" target="_blank"><img src="images/in.png" alt=""></a>
+      <a href="https://www.facebook.com/profile.php?id=100023971275331" target="_blank"><img src="images/face.png" alt=""></a>
+    </div>
+    <div class="email">
+      <p><strong>E-Mail</strong></br>
+        duycnguyen22@gmail.com
+      </p>
+    </div>
+  </div>
+</footer>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
+</body>
+</html>
